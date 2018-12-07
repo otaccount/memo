@@ -1,0 +1,12 @@
+-- postgresの設定ファイル場所
+show hba_file;
+
+-- 接続許可情報
+postgres.conf
+listen_addresses = '*'
+
+hba.conf
+host all all all trust
+
+※os側のportが許可されていること
+
